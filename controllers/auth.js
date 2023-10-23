@@ -56,7 +56,6 @@ async function changePassword(req, res) {
   }
 }
 
-/* --== Helper Functions ==-- */
 
 function handleAuthError(err, res) {
   console.log(err)
